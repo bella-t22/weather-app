@@ -8,25 +8,43 @@
 <body>
     <form action="" novalidate>
         <label for="search">Search Location:</label>
-        <input type="text" id="search" placeholder="london">
-        <button>Search</button>
+        <div class="contain-input">
+            <input type="text" id="search" placeholder="london">
+            <button>Go</button>
+        </div>
     </form>
     <div class="contain-location">
         <h1 id="location"></h1>
         <p id="extend-location"></p>
     </div>
     <div class="contain-temp">
-        <p id="temp">Temp</p>
+        <p id="temp"></p>
         <p id="condition"></p>
         <img id="condition-icon">
     </div>
     <div class="contain-feels-like">
-        <p id="feels-like">feels like</p>
-        <p id="wind">wind</p>
-        <p id="precip">precip</p>
-        <p id="humidity">humidity</p>
+        <p id="feels-like"></p>
+        <p>Feels Like</p>
     </div>
-    <p id="uv">uv</p>
-    <p id="last-updated">Last updated</p>
+        <div class="contain-wind">
+            <p id="wind"></p>
+            <p>Wind</p>
+        </div>
+        <div class="contain-precip">
+            <p id="precip"></p>
+            <p>Precipitation</p>
+        </div>
+        <div class="contain-humidity">
+            <p id="humidity"></p>
+            <p>Humidity</p>
+        </div>
+    <div class="contain-uv">
+        <p id="uv"></p>
+        <p>UV Index</p>
+    </div>
+    <div class="contain-last-updated">
+        <p id="last-updated"></p>
+        <p>Last Updated</p>
+    </div>
 </body>
 </html>
